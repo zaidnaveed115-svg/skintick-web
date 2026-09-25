@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cosmetics.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="1.js"></script>
+    <title>Document</title>
+</head>
+<header>
+            <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo">
+                    <span>SKINSTINCT</span>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="task.html">what people say</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="2.task.html">FAQ</a>
+                        </li>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secendry dropdown-toggle" type="button" id="dropdownMenu2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             any problem
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button">contact</button>
+                                <button class="dropdown-item" type="button"> <input type="text"
+                                        placeholder="any problem" id=""></button>
+                                <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " target="_blank" href="about us.html">About Us</a>
+                        </li>
+                    </ul>
+
+                    <a class="appointment-btn" href="my cart.html"> my cart 🛒 </a>
+                </div>
+            </div>
+        </nav>
+</header>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-left">
+                <div class="col-lg-6 col-md-12 hero-content">
+                    <span class="small-title"> PREMIUM SKINCARE </span>
+
+                    <h1>
+                        Beautiful Skin<br />
+                        <span>Starts Here.</span>
+                    </h1>
+
+                    <p>
+                        Discover premium skincare products carefully designed to nourish,
+                        protect and enhance your natural beauty.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="my cart.html" class="main-btn"> Explore Products </a>
+
+                        <a href="about us.html" class="outline-btn"> Book Appointment </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 hero-image">
+                    <div class="image-box">
+                        <img src="https://media.naheed.pk/catalog/product/cache/ff36c7bc52e2e5dbc63cd67fba513679/1/3/1361696-1.jpg"
+                            style="max-height: 475px; max-width: 1000px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="section-heading text-center">
+                <span>our skincare <strong>vince</strong> collection</span>
+
+                <h2> skincare Products <br />
+                    <span>Simple. Effective. Beautiful skincare.</span>
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="badge">BEST SELLER</span>
+                            <img src="//vincecare.com/cdn/shop/files/Intense_Hair_Repair_Combo_769a6539-26fc-4b84-b614-04047ad291e4.webp?v=1783584965"
+                                alt="Intense Hair Repair Combo">
+
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> FACE CARE </span>
+
+                            <h3>face wash</h3>
+
+                            <p>Deep hydration for smooth, healthy and glowing skin.</p>
+
+                            <div class="product-bottom">
+                                <strong> $29.99 </strong>
+
+                                <button>Add to 🛒 +</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="badge">NEW</span>
+                            <img src="//vincecare.com/cdn/shop/files/Vitamin_C_Serum_Benefits.png?v=1774702019"
+                                alt="Vitamin C Serum Benefits">
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> SKIN BRIGHTENING </span>
+
+                            <h3> hidrating cream</h3>
+
+                            <p>Brightens dull skin and restores natural radiance.</p>
+
+                            <div class="product-bottom">
+                                <strong> $34.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="badge">for men</span>
+                            <img src="//vincecare.com/cdn/shop/files/Activated_Charcoal_Scrub_Face_Wash_for_Men.png?v=1755346524"
+                                alt="Activated Charcoal Scrub Face Wash for Men">
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> men face wash </span>
+
+                            <h3> hard clean</h3>
+
+                            <p>thow out your black ness and make you a men.</p>
+
+                            <div class="product-bottom">
+                                <strong> $19.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://vincecare.com/cdn/shop/files/VINCE_Aloe_Vera_Cucumber_Toner_OLD-NEW.webp?v=1787050073"
+                                alt="Daily Moisturizer" />
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> alovera cucumber| toner </span>
+
+                            <h3>shampoo</h3>
+                            <p>make your face butiful and protects from dark heads use in daily life.</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://vincecare.com/cdn/shop/files/Vince-Extra-Glow-LC-Product3.png?v=1755340457"
+                                alt="Daily Moisturizer" />
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category">
+                                Extra Glow Lightening Cream </span>
+
+                            <h3>Extra Glow Lightening Cream</h3>
+                            <p>Vince Extra Glow Lightening Cream is a perfect unique blend of Neem Tulsi and
+                                Turmeric
+                                gives essential nourishment to the skin, improves skin complexion and provides
+                                you with
+                                the baby soft skin.</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://vincecare.com/cdn/shop/files/Biotin_Hair_Rescue_Combo_d392532c-5b3d-49a6-8894-2d7e19b24906.webp?v=1783584967"
+                                alt="Daily Moisturizer" />
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> Biotin Hair Rescue Combo </span>
+                            <h3>Biotin Hair Rescue Combo</h3>
+                            <p>The Biotin Hair Rescue Combo combines the powerful benefits of Biotin and Keratin
+                                to
+                                strengthen and revitalize your hair.</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://vincecare.com/cdn/shop/files/lip_balm_price_in_pakistan.png?v=1755341709"
+                                alt="Daily Moisturizer" />
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> jusi lips </span>
+
+                            <h3>jucy lips</h3>
+                            <p>Indulge in the brightening nourishment of Vince Juicy Lips, with the
+                                ultra-hydrating
+                                blend of 4 natural oils. This lip balm effectively helps moisturize dry and
+                                chapped lips
+                                an</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="product-card">
+                        <span class="badge">skin lightining </span>
+                        <div class="product-image">
+                            <img src="https://vincecare.com/cdn/shop/products/Skin-lightining-cream-day.jpg?v=1755340087"
+                                alt="Daily Moisturizer" />
+                        </div>
+
+                        <div class="product-info">
+                            <span class="category"> Skin Lightening Day Cream </span>
+
+                            <h3>Skin Lightening Day Cream</h3>
+                            <p>Vince Skin Lightening Cream is a lightweight formula that has Licorice Extract &
+                                Alpha
+                                Arbutin in the content that helps to maintain nutrition while brightening the
+                                skin.</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <section class="products">
+        <h2 class="section-heading-text-center">frangnances</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/mountain_of_santal_2_ac83ed01-73bd-4416-a5a7-7a7b20095a78.jpg?v=1777087429&width=1100"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">mountian of santal] </span>
+                        <h3>mountian of santal</h3>
+                        <p>Mountain of Santal is a refined men,s fragrance that balances the freshness of a
+                            fougère
+                            with the depth of oriental warmth. It opens with a crisp blend of bergamot,
+                            apple, and
+                            cardamom, creating an invigorating first impression.</p>
+
+                        <div class="product-bottom">
+                            <strong> $24.99 </strong>
+
+                            <button>Add +</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/JANANSPORT_1.jpg?v=1787138804&width=940"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">janan sport - 200ml </span>
+                        <h3>janan sport - 200ml</h3>
+                        <p>Discover the new exquisite variant of our popular Janan family; Janan Sport.
+                            The fragrance unwraps with a splash of fresh notes of bergamot, lemon,
+                            pineapple, pink
+                            pepper, blackcurrant, plum, mandarin and marine notes.</p>
+
+                        <div class="product-bottom">
+                            <strong> $24.99 </strong>
+
+                            <button>Add +</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/beard_oil-2_08203868-6e49-49b0-b91b-eafc82d7b4d1.jpg?v=1776958945&width=720"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category"> beard oil bottle (exclusive)</span>
+                        <h3>beard oil bottle (exclusive)</h3>
+                        <p>Enhances beard growth
+                            Moisturizes skin to keep it soft and supple
+                            Moisturizes skin by acting on the follicule</p>
+
+                        <div class="product-bottom">
+                            <strong> $24.99 </strong>
+
+                            <button>Add +</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/WhiteMusk_2.jpg?v=1777286362&width=823"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">white musk - 100ml</span>
+                        <h3>white musk - 100ml</h3>
+                        <p>Experience the invigorating scent of White Musk. A woody and classy fragrance
+                            infused
+                            with refreshing notes of mint oil and lemon on a warm base of tonka, created for
+                            the man
+                            of class</p>
+
+                        <div class="product-bottom">
+                            <strong> $24.99 </strong>
+
+                            <button>Add +</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+    </section>
+    <section class="products">
+        <h2 class="section-heading-text-center">Embroidry</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/JST-26-2498_5.jpg?v=1786950242&width=1346"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">green embroidered jacquard co-ord set</span>
+                        <h3>green embroidered jacquard co-ord set</h3>
+
+                        <p>Stripes take centre stage in this effortlessly coordinated two-piece, featuring
+                            an
+                            embroidered yarn-dyed jacquard kurta paired with a matching striped trouser</p>
+
+                        <div class="product-bottom">
+                            <strong> $24.99 </strong>
+
+                            <button>Add +</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/26-779_1.jpg?v=1786959329&width=1946"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">sea green embroidered liminal stitched 3pc</span>
+                        <h3>
+                            <h3>sea green embroidered liminal stitched 3pc</h3>
+                            <p>Dry clean recommended Iron on low heat Avoid direct ironing on embroidered
+                                areas
+                                Handle lace and chiffon detailing with care Store in a cool, dry place</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/26-3749_2_7e55cac1-3147-4f4e-a47e-1d7c021692c4.jpg?v=1776975297&width=720"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">multicolor lawn embroidered unstitched 3pc</span>
+                        <h3>
+                            <h3>multicolor lawn embroidered unstitched 3pc</h3>
+                            <p>Embroidered Printed Lawn Shirt: 3 Meters
+                                Printed Lawn Dupatta: 2.5 Meters
+                                Dyed Lawn Trouser: 2.5 Meters
+                            </p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.junaidjamshed.com/cdn/shop/files/26-669_1_2419c331-98b1-4fa1-bbb6-ad43008a6ce8.jpg?v=1786958773&width=1946"
+                            alt="fragnance" />
+                    </div>
+                    <div class="product-info">
+                        <span class="category">pink embroidered lawn stitched 3pc</span>
+                        <h3>
+                            <h3>pink embroidered lawn stitched 3pc</h3>
+                            <p>Due to the photographic lighting & different screen calibrations, the colors
+                                of the
+                                original product may slightly vary from the picture</p>
+
+                            <div class="product-bottom">
+                                <strong> $24.99 </strong>
+
+                                <button>Add +</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-brand">SKINSTINCT</div>
+
+                    <p>Premium skincare for naturally beautiful and healthy skin.</p>
+                </div>
+
+                <div class="col-md-6 footer-right">
+                    <h5>Quick Links</h5>
+                    <a href="#">Home</a>
+                    <a href="about us.html">About Us</a>
+                    <a href="task.html">Products</a>
+                    <a href="facility.html">what people say</a>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">© SKINSTINCT PTY LTD 2026. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"> </script>
+</body>
+
+</html>
